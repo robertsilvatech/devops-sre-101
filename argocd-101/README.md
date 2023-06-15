@@ -1,6 +1,15 @@
 # ArgoCD
 
-## Passo 01 - Instalação do GitOps
+- [ArgoCD](#argocd)
+  - [Passo 01 - Instalação do ArgoCD](#passo-01---instalação-do-argocd)
+  - [Passo 02 - Conhecendo nossa aplicação em Python](#passo-02---conhecendo-nossa-aplicação-em-python)
+  - [Passo 03 - Conhecendo nosso repositório do GitOps](#passo-03---conhecendo-nosso-repositório-do-gitops)
+  - [Passo 04 - Configurando nossa primeira App no ArgoCD](#passo-04---configurando-nossa-primeira-app-no-argocd)
+    - [Configurando uma nova App](#configurando-uma-nova-app)
+  - [Passo 05 - Simular alterações com o `auto sync` desabilitado.](#passo-05---simular-alterações-com-o-auto-sync-desabilitado)
+
+
+## Passo 01 - Instalação do ArgoCD
 
 - Criando o namespace do ArgoCD
 ```
