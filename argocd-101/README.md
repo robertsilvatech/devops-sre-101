@@ -7,6 +7,7 @@
   - [Passo 04 - Configurando nossa primeira App no ArgoCD](#passo-04---configurando-nossa-primeira-app-no-argocd)
     - [Configurando uma nova App](#configurando-uma-nova-app)
   - [Passo 05 - Simular alterações com o `auto sync` desabilitado.](#passo-05---simular-alterações-com-o-auto-sync-desabilitado)
+  - [Passo 06 - Habilitando `auto sync`](#passo-06---habilitando-auto-sync)
 
 
 ## Passo 01 - Instalação do ArgoCD
@@ -89,3 +90,18 @@ kubectl -n dev scale deployment sample-python-application-dev --replicas 5
 
 ![OutOfSync](img/argocd-newapp-05-autosync-disable-outofsync.png)
 
+- App Diff
+
+![](img/argocd-newapp-06-app-diff.png)
+
+## Passo 06 - Habilitando `auto sync`
+
+![](img/argocd-newapp-07-selecionando-app.png)
+
+![](img/argocd-newapp-08-application-details.png)
+
+![](img/argocd-newapp-09-edit.png)
+
+![](img/argocd-newapp-10-sync-policy.png)
+
+![](img/argocd-newapp-11-app-state.png)
